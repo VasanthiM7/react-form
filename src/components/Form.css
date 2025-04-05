@@ -1,0 +1,95 @@
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button[type="submit"] {
+    background: #28a745;
+    color: white;
+}
+
+button[type="button"] {
+    background: #dc3545;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.form-Name,
+.form-email,
+.form-contact,
+.form-gender,
+.form-subjects,
+.form-resume,
+.form-url,
+.form-choice,
+.formm-about {
+    margin-bottom: 15px;
+}
+
+.form-Name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-name-first,
+.form-name-last {
+    width: 48%;
+}
+
+.form-gender label,
+.form-subjects label {
+    display: inline-block;
+    margin-right: 10px;
+}
+.form-message {
+    margin-top: 1rem;
+    padding: 10px;
+    font-weight: bold;
+    color: green; /* or red based on success/failure */
+}
